@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <title>Slider</title>
+     <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+      <div class="meaning-conteiner">
+          <h1 class="meaning-title">Understanding the Meaning of the Color Green</h1>
+          <p class="meaning-dscr">
+             Green is associated with nature since it is the color of chlorophyll, a pigment in plants. Because of this connection, green is used for environmental activism — products and actions that protect the environment are “green,” and people with a talent for growing plants have a “green thumb.”
+             In Ancient Egypt, green was a symbol of rebirth and regeneration. Green is sacred in Islam as it is connected to the Prophet Muhammad.
+             Green also has some negative connotations. Medieval art and literature depicted the devil in green because it was perceived as a pleasant color that attracted animals. A jealous person is sometimes described as “green with envy.”
+          </p>
+      </div>
+
+       <div class="association-container">
+          <p class="association-dscr">
+             Green, situated between blue and yellow on the visible spectrum, is a color associated with nature, growth, and harmony. It's often described as a calming and refreshing color, evoking feelings of freshness, vitality, and balance. Green is also strongly linked to the natural world, representing plants, forests, and springtime. 
+          </p>
+       </div>
+
+       <div class="wrapper">
+           <div class="slider" id="slider">
+              <div class="slides">
+                  <div class="slide">
+                     <img src="img/photo-1.jpg" alt="Slide 1">
+                  </div>
+
+                   <div class="slide">
+                      <img src="img/photo-2.jpg" alt="Slide 2">
+                   </div>
+
+                  <div class="slide">
+                     <img src="img/photo-3.jpg" alt="Slide 3">
+                  </div>
+
+                   <div class="slide">
+                     <img src="img/photo-4.jpg" alt="Slide 3">
+                   </div>
+
+                   <div class="slide">
+                      <img src="img/photo-5.jpg" alt="Slide 3">
+                   </div>
+
+                   <div class="slide">
+                     <img src="img/photo-6.jpg" alt="Slide 3">
+                   </div>
+
+                   <div class="slide">
+                     <img src="img/photo-7.jpg" alt="Slide 3">
+                   </div>
+
+                   <div class="slide">
+                     <img src="img/photo-8.jpg" alt="Slide 3">
+                  </div>
+              </div>
+
+               <div class="controls">
+                 <button id="prev">&#10094;</button>
+                 <button id="next">&#10095;</button>
+               </div>
+
+               <div class="indicators" id="indicators"></div>
+               <button class="auto-button" id="toggleAuto"> Pause </button>
+               <script src="js/main.js"></script>
+           </div>
+      </div>
+      
+      <div class="container-symbolism">
+          <h2 class="symbolism-title">Symbolism and Associations:</h2>
+          <ul class="symbolism-list">
+             <li class="symbolism-item-list">
+                 Nature:
+                 Green is universally recognized as the color of nature, symbolizing growth, renewal, and fertility. 
+             </li>
+
+             <li class="symbolism-item-list">
+                 Harmony and Balance:
+                 It's often associated with harmony, stability, and a sense of well-being. 
+             </li>
+             
+             <li class="symbolism-item-list">
+                 Freshness and Vitality:
+                 Green can evoke feelings of freshness, energy, and health, particularly in relation to new growth and springtime. 
+             </li>
+
+             <li class="symbolism-item-list">
+                 Positive Emotions:
+                 It's considered a positive and relaxing color, promoting feelings of peace, security, and tranquility. 
+             </li>
+
+              <li class="symbolism-item-list">
+                 Other Associations: 
+                 Green can also symbolize good luck, money, and prosperity in some cultures, while darker shades can represent ambition and wealth, according to Shutterstock. In some contexts, green can also be associated with jealousy or inexperience, according to Shutterstock. 
+             </li>
+         </ul>
+      </div>
+
+      <aside>
+          <form class="comment-form" id="commentForm">
+             <h2> Leave a comment </h2>
+
+             <label for="name">Your name:</label>
+             <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+             <label for="email">Your email:</label>
+             <input type="email" id="email" name="email" required placeholder="Enter your email">
+             <div class="error" id="emailError"></div>
+
+             <label for="comment">Comment:</label>
+             <textarea id="comment" name="comment" rows="4" required placeholder="Enter comment"></textarea>
+
+             <button type="submit">Submit</button>
+          </form>
+
+          <div class="comments" id="comments">
+             <h3>Comments:</h3>
+          </div>
+      </aside>
+      <script src="js/aside-form.js"></script>
+  </body>
+   <footer>
+      <div class="container-footer">Look up ©2025</div>
+   </footer>
+</html>
+
